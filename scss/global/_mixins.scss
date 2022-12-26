@@ -1,4 +1,6 @@
 @mixin button {
+  display: flex;
+  justify-content: center;
   width: 183px;
   height: 48px;
   background: $green;
@@ -6,8 +8,6 @@
   color: #ffffff;
   text-align: center;
   padding: 15px 0;
-  display: flex;
-  justify-content: center;
 }
 
 @mixin green__line {
