@@ -83,6 +83,12 @@
   color: #ffffff;
   text-align: center;
   padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
   width: 100%;
   font-weight: 700;
@@ -719,7 +725,7 @@ span {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-evenly;
+          justify-content: space-between;
   width: 411px;
 }
 .header nav ul a:hover {
@@ -745,6 +751,12 @@ span {
   color: #ffffff;
   text-align: center;
   padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media (max-width: 767px) {
   .button__link {
@@ -1975,6 +1987,12 @@ span {
   color: #ffffff;
   text-align: center;
   padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
   width: 100%;
   font-weight: 700;

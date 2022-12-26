@@ -6,6 +6,8 @@
   color: #ffffff;
   text-align: center;
   padding: 15px 0;
+  display: flex;
+  justify-content: center;
 }
 
 @mixin green__line {
