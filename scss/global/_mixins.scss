@@ -1,0 +1,16 @@
+@mixin button {
+  width: 183px;
+  height: 48px;
+  background: $green;
+  border-radius: 27px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+@mixin green__line {
+  width: 52px;
+  border: 2px solid #01d957;
+  margin: 15px 18px 0 0;
+  background-color: #01d957;
+}

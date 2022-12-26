@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/logo_icon.svg" />
+    <title>Everest</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://www.jqueryscript.net/css/jquerysctipttop.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header layout">
+      <div class="header__logo__wrap">
+        <a href="#" class="header__logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <nav id="js-nav" class="nav">
+        <ul class="list">
+          <li>
+            <a href="./index.html">Главная</a>
+          </li>
+          <li>
+            <a href="./about_us.html">О нас</a>
+          </li>
+          <li class="header__item">
+            <a href="./exchange.html" class="header__link">Услуги</a>
+          </li>
+          <li>
+            <a href="./contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav__contacts__wrap">
+        <a href="#" id="modal_nav_mob" class="nav__contacts">
+          <img src="./images/contacts.svg" alt="contacts" />
+        </a>
+      </div>
+      <button id="js-hamburger" class="hamburger" type="button">
+        <span id="js-top-line" class="top-line"></span>
+        <span id="js-center-line" class="center-line"></span>
+        <span id="js-bottom-line" class="bottom-line"></span>
+      </button>
+      <nav class="nav__opacity">
+        <ul>
+          <li>
+            <a href="./index.html">Главная</a>
+          </li>
+          <li>
+            <a href="./about_us.html">О нас</a>
+          </li>
+          <li class="header__item">
+            <a href="./exchange.html" class="header__link">Услуги</a>
+          </li>
+          <li>
+            <a href="./contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="button__link__wrap">
+        <a href="#" id="modal_nav" class="button__link">Обратный звонок</a>
+      </div>
+    </header>
+    <main>
+      <section class="contacts_section">
+        <div class="left">
+          <img
+            src="./images/contacts_specialists.png"
+            alt="contacts specialists"
+          />
+        </div>
+        <div class="right">
+          <div class="green_title_wrap">
+            <hr class="green" />
+            <h2 class="title_contacts">Контакты</h2>
+          </div>
+          <div class="contacts__title">
+            <ul class="title_item_wrap">
+              <li>
+                <h3 class="title_item">ПОЧТА</h3>
+                <p>everestfinance@com</p>
+              </li>
+              <li>
+                <h3 class="title_item">АДРЕС</h3>
+                <p>г. Москва, ул. Строителей 18б</p>
+              </li>
+              <li>
+                <h3 class="title_item">МЕССЕНДЖЕРЫ</h3>
+                <div class="contacts">
+                  <a href="#" class="contacts__item">
+                    <img src="./images/telegram.svg" alt="telegram"
+                  /></a>
+                  <a href="#">
+                    <img src="./images/whatsapp.svg" alt="whatsapp"
+                  /></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__form">
+            <div class="green__wrap">
+              <hr class="green__line" />
+              <p class="description__form">
+                Оставьте заявку и наш менеджер свяжется с Вами в течении
+                нескольких часов
+              </p>
+            </div>
+            <form action="" class="form">
+              <input
+                type="text"
+                class="input__form"
+                min="1"
+                placeholder="Ваше имя"
+                required
+              />
+              <input
+                type="email"
+                class="input__form"
+                placeholder="Почта"
+                required
+              />
+              <input
+                type="tel"
+                class="input__form"
+                maxlength="16"
+                placeholder="Телефон (необязательно)"
+              />
+              <input
+                type="submit"
+                id="submit1f"
+                class="button"
+                value="Отправить"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="section__top layout">
+        <a href="#" class="header__logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </a>
+        <div class="section__top_nav">
+          <ul class="nav__footer">
+            <li>
+              <a href="./index.html">Главная</a>
+            </li>
+            <li>
+              <a href="./about_us.html">О нас</a>
+            </li>
+            <li class="header__item">
+              <a href="./exchange.html" class="header__link">Услуги</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+            <li>
+              <a href="#">Политика конфиденциальности</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="section__top_contacts">
+          <a href="#" class="contacts__footer">
+            <img src="./images/telegram.svg" alt="telegram" /> </a
+          ><a href="#">
+            <img src="./images/whatsapp.svg" alt="whatsapp" />
+          </a>
+        </div>
+      </div>
+      <div class="section__bottom layout">
+        <h6 class="protect__footer">
+          Everest Finance Group. Все права защищены @ 2022
+        </h6>
+      </div>
+    </footer>
+    <div id="modal-1" class="modal">
+      <div class="close__form">
+        <div class="callback__form">
+          <h3 class="title__form">Обратный звонок</h3>
+          <form action="" class="form">
+            <input
+              type="text"
+              class="input__form"
+              min="1"
+              placeholder="Ваше имя"
+              required
+            />
+            <input
+              type="tel"
+              class="input__form"
+              maxlength="16"
+              placeholder="Телефон"
+              required
+            />
+            <input
+              type="email"
+              class="input__form"
+              placeholder="Почта (необязательно)"
+            />
+            <input
+              type="submit"
+              id="submit1"
+              class="button"
+              value="Отправить"
+            />
+          </form>
+        </div>
+        <a href="#" class="modal__close-button">
+          <img src="./images/close.png" alt="close" title="Закрыть" />
+        </a>
+      </div>
+    </div>
+    <div id="modal-2" class="modal2">
+      <div class="close__form">
+        <div class="callback__form">
+          <h3 class="title__form">
+            Вы успешно отправили заявку на обратный звонок. Мы вас наберем в
+            ближайшее время!
+          </h3>
+        </div>
+        <a href="#" class="modal__close-button">
+          <img src="./images/close.png" alt="close" title="Закрыть" />
+        </a>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/hamburger1.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

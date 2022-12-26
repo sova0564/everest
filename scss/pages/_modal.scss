@@ -1,0 +1,136 @@
+.modal {
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  background: rgba(0, 0, 0, 0.9);
+  //   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  .close__form {
+    display: flex;
+    gap: 10px;
+
+    .callback__form {
+      display: flex;
+      flex-direction: column;
+      width: 437px;
+      height: 350px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      @media (max-width: 767px) {
+        width: 325px;
+      }
+
+      .form {
+        width: 387px;
+        height: 222px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        @media (max-width: 767px) {
+          width: 100%;
+          padding: 0 10px;
+        }
+
+        .input__form {
+          height: 100%;
+          width: 100%;
+          background: #fbfbfb;
+          border: 1px solid #eeeded;
+          border-radius: 4px;
+          margin-bottom: 10px;
+          padding-left: 15px;
+          font-size: 14px;
+        }
+
+        .button {
+          @include button();
+          border: none;
+          width: 100%;
+          font-weight: 700;
+          font-size: 14px;
+          cursor: pointer;
+        }
+        .button:hover {
+          text-decoration: none;
+          background-color: #fff;
+          color: #01d957;
+          border: 2px solid;
+          height: 46px;
+          padding: 13px 0;
+        }
+      }
+
+      .title__form {
+        font-weight: 600;
+        font-size: 24px;
+        margin: 30px auto;
+      }
+    }
+  }
+
+  .modal__close-button {
+    height: 17px;
+  }
+}
+
+.modal2 {
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  background: rgba(0, 0, 0, 0.9);
+  //   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  .close__form {
+    display: flex;
+    gap: 10px;
+
+    .callback__form {
+      display: flex;
+      flex-direction: column;
+      width: 437px;
+      height: 225px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      @media (max-width: 767px) {
+        width: 325px;
+      }
+
+      .title__form {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 114.8%;
+        letter-spacing: 0.01em;
+        padding: 51px 42px 0 42px;
+        @media (max-width: 767px) {
+          padding: 30px 42px 0 42px;
+        }
+      }
+    }
+  }
+}
+
+.modal_active {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s;
+}

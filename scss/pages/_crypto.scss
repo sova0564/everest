@@ -1,0 +1,60 @@
+.first_crypto {
+  background-image: url(../images/crypto_main.png);
+  height: 417px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+
+  .first__wrap {
+    width: 590px;
+    height: 220px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 120px;
+    @media (max-width: 1279px) {
+      margin-left: 80px;
+    }
+    @media (max-width: 767px) {
+      width: 335px;
+      margin: 0 auto;
+    }
+
+    .title__first {
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 114.8%;
+      @media (max-width: 767px) {
+        font-size: 24px;
+        text-align: center;
+      }
+    }
+
+    .desc__first {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 114.8%;
+      margin-bottom: 30px;
+      @media (max-width: 767px) {
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+  }
+
+  .exchange__title {
+    height: 219px;
+
+    .title__first {
+      margin-bottom: 20px;
+    }
+
+    .exchange__button {
+      display: flex;
+    }
+  }
+}
