@@ -1,4 +1,6 @@
-//header
+$(function () {
+
+//header modal
 $(function () {
   $("#modal_nav").click(function () {
     $(".modal").addClass("modal_active");
@@ -36,8 +38,9 @@ $(function () {
     $(".modal2").removeClass("modal_active");
   });
 });
+ 
 
-// footer
+// footer modal
 $(function () {
   $("#submit1f").click(function () {
     $(".modal2").addClass("modal_active");
@@ -47,3 +50,4 @@ $(function () {
     $(".modal2").removeClass("modal_active");
   });
 });
+ });

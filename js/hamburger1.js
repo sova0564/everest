@@ -1,3 +1,4 @@
+//header hamburger
 const hamburgerBtn = document.getElementById("js-hamburger");
 const topLine = document.getElementById("js-top-line");
 const centerLine = document.getElementById("js-center-line");

@@ -1,4 +1,5 @@
-jQuery(function ($) {
+//crypto&exchange four_accordion
+$(function ($) {
   $(".accordion-content").css("display", "none");
 
   $(".accordion-title").click(function () {
